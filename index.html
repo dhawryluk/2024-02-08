@@ -3,12 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="script.js"></script>
-    <title>Help us all</title>
+    <link rel="stylesheet" href="main.css" />
+    <title>Help me learn JS</title>
   </head>
   <body>
-    <h1>This is my weak attempt and understanding JavaScript</h1>
-    <p id="first-string"></p>
-    <p id="first-number"></p>
+    <h1>CPNT 262 - JavaScript Activity 2</h1>
+    <br />
+    <fieldset>
+      <legend>Number Modification - Increment and integer</legend>
+      <label for="firstNumber">Before Variable:</label>
+      <p id="firstNumber">5</p>
+      <br />
+
+      <label for="secondNumber">After Variable:</label>
+      <p id="secondNumber"></p>
+      <br />
+
+      <button onClick="changeNumber()">Click Me</button>
+    </fieldset>
+    <br />
+    <fieldset>
+      <legend>String Modification - Length</legend>
+      <label for="firstString">Before Variable:</label>
+      <p id="firstString">This is a String Modification</p>
+      <br />
+
+      <label for="secondString">After Variable:</label>
+      <p id="secondString"></p>
+      <br />
+
+      <button onClick="changeLength()">Click Me</button>
+    </fieldset>
+    <br />
+    <fieldset>
+      <legend>String Modification - Replace</legend>
+      <label for="firstString1">Before Variable:</label>
+      <p id="firstString1">This is a String Modification</p>
+      <br />
+
+      <label for="secondString2">After Variable:</label>
+      <p id="secondString2"></p>
+      <br />
+
+      <button onClick="changeWord()">Click Me</button>
+    </fieldset>
+    <br />
+    <fieldset>
+      <legend>Array Modifications - Concat</legend>
+      <label for="firstArray">Before Variable:</label>
+      <h3>My Favorite Vehicles</h3>
+      <p id="firstArray">Jeep, Mustang</p>
+      <br />
+      <label for="thirdArray">After Variable:</label>
+      <h3>My Favorite Vehicles</h3>
+      <p id="thirdArray">Camaro, Ferrari</p>
+      <br />
+      <button onClick="changeArray()">Click Me</button>
+    </fieldset>
+    <br />
+    <fieldset>
+      <legend>Array Modifications - Push</legend>
+      <label for="cars-before">Before Variable:</label>
+      <h3>My Favorite Vehicles</h3>
+      <p id="cars-before">Jeep, Mustang</p>
+      <br />
+      <label for="cars-after">After Variable:</label>
+      <h3>My Favorite Vehicles</h3>
+      <p id="cars-after">Jeep, Mustang</p>
+      <br />
+      <button onClick="carsResult()">Click Me</button>
+    </fieldset>
+    <br />
+    <fieldset>
+      <legend>Object Modifications - Values</legend>
+      <label for="camo-before">Before Variable:</label>
+      <h3>Call of Duty MultiPlayer Camo's</h3>
+      <p id="camo-before">Gilded, Forged, Priceless, Interstellar</p>
+      <br />
+      <label for="camo-after">After Variable:</label>
+      <h3>Call of Duty Zombies Camo</h3>
+      <p id="camo-after">Press Button to reveal!</p>
+      <br />
+      <button onClick="zombie()">Click Me</button>
+    </fieldset>
+    <br />
+    <fieldset>
+      <legend>Object Modifications - Entries</legend>
+      <label for="guns-before">Before Variable:</label>
+      <h3>MW3 Favorite Loadout</h3>
+      <p id="guns-before">AMR9 Primary with XRK Stalker Sniper Secondary</p>
+      <br />
+      <label for="guns-after">After Variable:</label>
+      <h3>MW3 Secondary Loadout</h3>
+      <p id="guns-after">Press Button to reveal!</p>
+      <br />
+      <button onClick="loadout()">Click Me</button>
+    </fieldset>
   </body>
+  <script src="client.js"></script>
 </html>

@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(44, 44, 44);
+  color: rgb(242, 255, 0);
+  text-align: center;
+  width: 80vw;
+  margin: auto;
+}
+
+button {
+  background-color: rgb(172, 6, 255);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(138, 43, 226, 0.9);
+  transform: scale(1.1);
+  transition: 0.3 ease-in-out;
+}
+
+fieldset {
+  width: 50%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+legend {
+  font-weight: 900;
+  font-size: 1.2rem;
+}
